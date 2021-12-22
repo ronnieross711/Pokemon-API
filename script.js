@@ -16,10 +16,10 @@ async function getData(e) {
         .then(res => {
             pokemonHeading.innerHTML = res.name.toUpperCase()
             frontPicture.setAttribute('src', res.sprites.other['official-artwork'].front_default)
-            pokemonName.innerHTML = res.name
-            pokemonType.innerHTML = res.types[0].type.name
-            pokemonAbl.innerHTML = res.abilities[0].ability.name
-            pokemonMoves.innerHTML = res.moves[0].move.name
+            pokemonName.innerHTML = ` Name: ${res.name.toUpperCase()}`
+            pokemonType.innerHTML = `Type: ${res.types[0].type.name.toUpperCase()}`
+            pokemonAbl.innerHTML = `Ability: ${res.abilities[0].ability.name.toUpperCase()}`
+            pokemonMoves.innerHTML = `Move: ${res.moves[0].move.name.toUpperCase()}`
 
         })
 

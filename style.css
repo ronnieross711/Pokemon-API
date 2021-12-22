@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(26, 158, 181, 0.68);
+    display: gird;
+    justify-content: center;
+}
+
+.heading {
+    padding: 50px 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: royalblue;
+}
+
+.directions {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: slategray;
+    color: #fff;
+}
+
+#searchButton {
+    background-color: slategray;
+    color: #fff;
+}
+
+#searchButton:hover {
+    background-color: transparent;
+}
+
+#searchBar {
+    margin-left: 25%;
+    padding: 40px 40px;
+}
+
+.mainPage {
+    margin-left: 25%;
+
+}
