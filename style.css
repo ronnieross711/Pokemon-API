@@ -9,6 +9,7 @@ body {
     margin-left: 25%;
     margin-right: 25%;
     background-color: royalblue;
+    border-radius: 20px 20px;
 }
 
 .directions {
@@ -16,6 +17,8 @@ body {
     margin-right: 25%;
     background-color: slategray;
     color: #fff;
+    border-radius: 50px 50px;
+    text-align: center;
 }
 
 #searchButton {
