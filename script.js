@@ -7,6 +7,14 @@ const pokemonType = document.querySelector('#type')
 const pokemonAbl = document.querySelector('#abilities')
 const pokemonMoves = document.querySelector('#moves')
 
+// Playing with cod to make enter work and not always having to click the button
+// document.querySelector('#inputBar').addEventListener('keypress', function (e) {
+//     if (e.key === 'Enter') {
+//       // code for enter
+//     }
+// });
+
+
 async function getData(e) {
     const url = `https://pokeapi.co/api/v2/pokemon/${textInput.value}`
     e.preventDefault()
@@ -27,3 +35,10 @@ async function getData(e) {
 }
 
 button.addEventListener('click', getData)
+
+// // Playing with cod to make enter work and not always having to click the button
+// textInput.addEventListener('keyup', function(e) {
+//     if (e.keyCode === 13) {
+//         e.preventDefault()
+//     }
+// })
